@@ -20,7 +20,7 @@ const Home = () => {
         <VStack  position="absolute"   bottom={['300','1']}   
           right={['10','400']}     >
         <Text
-          color={'chakra-placeholder-color._light'}  
+          color={'white'}  
           fontSize="8xl"  
           borderBottom={'4px solid azure'}
           fontFamily={'Tilt Prism'}
@@ -28,7 +28,7 @@ const Home = () => {
         >
           Krypto
         </Text>
-        <Text>
+        <Text color={'white'}>
           One Stop for All the Cryptocurrencies
         </Text>
         </VStack>
