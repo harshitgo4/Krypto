@@ -104,7 +104,7 @@ const Coindetails = () => {
 }
 const Item=({value,name})=>(
 
-  <HStack  overflowX={'hidden'}  bgColor={'blue.900'} minW={'-webkit-min-content'} w={'100%'} my={'4'}fontSize={['4sm','2xl']} justifyContent={'space-between'} letterSpacing={'widest'} fontFamily={'monospace'}>
+  <HStack  overflowX={'hidden'}  bgColor={'blue.200'} minW={'-webkit-min-content'} w={'100%'} my={'4'}fontSize={['4sm','2xl']} justifyContent={'space-between'} letterSpacing={'widest'} fontFamily={'monospace'} color={'blackAlpha.700'}>
     <Text>{name}</Text>
     <Text>{value===null?"NOT AVAILABLE":value}</Text>
   </HStack>
