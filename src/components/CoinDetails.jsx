@@ -49,7 +49,7 @@ const Coindetails = () => {
       {
         load ? <Loader /> : (
           <>
-            <Box alignContent={'center'} w={'full'} my={'2'} justifyContent={'center'} borderWidth={'1'}>
+            <Box alignContent={'center'} w={'full'} my={['10','2']} justifyContent={'center'} borderWidth={'1'} objectFit={'contain'}>
               <MChart currency={currencySymbol} arr={chartarray} days={days} />
             </Box>
             <HStack justifyContent={'center'} p={'4'}>
